@@ -1,6 +1,11 @@
 {
   "replace":false,
   "values":[
-    "gilde:tick"
+    "gilde:actionbar/tick",
+    "gilde:difficulty/tick",
+    "gilde:grid/tick",
+    "gilde:interface/tick",
+    "gilde:members/tick",
+    "gilde:names/tick"
   ]
 }

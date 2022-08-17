@@ -1,0 +1,1 @@
+# gilden-datapack difficulty load function #

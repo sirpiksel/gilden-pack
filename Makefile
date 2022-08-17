@@ -14,9 +14,10 @@ pack:
 
 zip:
 	NAME = $(NAME).zip
-	zip $(NAME) data pack.mcmeta pack.png
+	zip -r $(NAME) data pack.mcmeta pack.png
 
 deploy:
+	rm -frv $(DESTDIR)/$(NAME)*
 	cp -vfr $(NAME) $(DESTDIR)
 
 clean:

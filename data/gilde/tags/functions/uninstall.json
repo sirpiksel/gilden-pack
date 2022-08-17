@@ -1,5 +1,6 @@
 {
 	"values": [
-		"gilde:uninstall"
+		"gilde:interface/uninstall",
+		"gilde:names/uninstall"
 	]
 }

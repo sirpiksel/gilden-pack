@@ -1,6 +1,10 @@
 {
   "replace":false,
   "values":[
-    "gilde:load"
+    "gilde:actionbar/load",
+    "gilde:difficulty/load",
+    "gilde:grid/load",
+    "gilde:interface/load",
+    "gilde:names/load"
   ]
 }
