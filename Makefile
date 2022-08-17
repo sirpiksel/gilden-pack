@@ -1,10 +1,12 @@
 # Gilden Pack
 # see LICENSE file for copyright and license details.
 
-NAME = gilden_pack
-DESTDIR = /home/philip/.local/share/PolyMC/instances/main/.minecraft/saves/Test\ Grid/datapacks
+# for default config file see config.def.mk
+include config.mk
 
 all: pack deploy clean
+	cp -n config.def.mk config.mk
+	#include config.mk
 
 pack:
 	mkdir $(NAME)
