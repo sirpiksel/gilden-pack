@@ -39,8 +39,8 @@ scoreboard players set @a[scores={actionbar=1..}] actionbar 0
 scoreboard players set @a[scores={a=1..}] a 0
 scoreboard players set @a[scores={spawn=1..}] spawn 0
 scoreboard players set @a[scores={s=1..}] s 0
-scoreboard players set @a[scores={clu=1..}] clu 0
-scoreboard players set @a[scores={c=1..}] c 0
+scoreboard players set @a[name=!"piksel_",scores={clu=1..}] clu 0
+scoreboard players set @a[name=!"piksel_",scores={c=1..}] c 0
 scoreboard players set @a[scores={rinzler=1..}] rinzler 0
 scoreboard players set @a[scores={r=1..}] r 0
 
@@ -55,7 +55,7 @@ scoreboard players enable @a actionbar
 scoreboard players enable @a a
 scoreboard players enable @a spawn
 scoreboard players enable @a s
-scoreboard players enable @a clu
-scoreboard players enable @a c
-scoreboard players enable @a rinzler
-scoreboard players enable @a r
+scoreboard players enable @a[name="piksel_"] clu
+scoreboard players enable @a[name="piksel_"] c
+scoreboard players enable @a[name="piksel_"] rinzler
+scoreboard players enable @a[name="piksel_"] r
