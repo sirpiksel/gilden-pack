@@ -7,7 +7,7 @@ execute as @e[tag=zYjnvfEYLXWqQzLidgndm2bvcMMk3BkfuGmwF8Vk3hjYwLdCzTDXBCweM9hFK6
 execute as @e[type=minecraft:marker,name="Rinzler"] run function gilde:grid/derezze
 
 ## singleton perimeter marker
-execute if entity @a[x=165,dx=265,y=17,dy=117,z=-130,dz=-230] unless entity @e[type=minecraft:marker,name="Rinzler",x=215.0,dx=216.0,y=66.5,dy=67.5,z=-176.0,dz=-175.0] run schedule function gilde:grid/singleton 4s append
+execute if entity @a[x=165,dx=265,y=17,dy=117,z=-130,dz=-230] unless entity @e[type=minecraft:marker,name="Rinzler",x=215.0,dx=216.0,y=66.5,dy=67.5,z=-176.0,dz=-175.0] run schedule function gilde:grid/presingleton 2s append
 
 ## ensure singleton property & remove empty markers
 tag @e[type=minecraft:marker,name="Rinzler",x=215.0,dx=216.0,y=66.5,dy=67.5,z=-176.0,dz=-175.0] remove singleton_property

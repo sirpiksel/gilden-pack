@@ -1,8 +1,5 @@
 # gilden-datapack grid singleton setup function #
 
-## clear schedule
-schedule clear gilde:grid/singleton
-
 ## notification
 tellraw piksel_ ["",{"text":"<"},{"text":"Rinzler","color":"red"},{"text":"> "},{"selector":"@s"},{"text":" Warning | Tampering detected.","color":"red"}]
 
