@@ -1,5 +1,6 @@
 # gilden-datapack interface load function #
 
+# triggers
 scoreboard objectives add globalSettings trigger
 scoreboard objectives add gs trigger
 
@@ -20,3 +21,6 @@ scoreboard objectives add c trigger
 
 scoreboard objectives add rinzler trigger
 scoreboard objectives add r trigger
+
+# settings
+scoreboard objectives add activeTriggers dummy

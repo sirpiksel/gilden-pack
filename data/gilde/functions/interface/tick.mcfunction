@@ -3,12 +3,19 @@
 ## shortcut to full trigger conversion
 execute as @a run function gilde:interface/shortcuts
 
+## print globalSettings
+# TODO
+
 ## print playerSettings
 execute as @a[scores={playerSettings=1}] run tellraw @s ["",{"text":"----------------------------------------","color":"green"},{"text":"\nName Color ("},{"selector":"@s"},{"text":"):\n"},{"text":"\u2588","color":"black","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 2"}},{"text":", "},{"text":"\u2588","color":"dark_gray","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 3"}},{"text":", "},{"text":"\u2588","color":"dark_blue","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 4"}},{"text":", "},{"text":"\u2588","color":"blue","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 5"}},{"text":", "},{"text":"\u2588","color":"dark_green","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 6"}},{"text":", "},{"text":"\u2588","color":"green","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 7"}},{"text":", "},{"text":"\u2588","color":"dark_aqua","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 8"}},{"text":", "},{"text":"\u2588","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 9"}},{"text":", "},{"text":"\u2588","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 10"}},{"text":", "},{"text":"\u2588","color":"red","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 11"}},{"text":", "},{"text":"\u2588","color":"dark_purple","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 12"}},{"text":", "},{"text":"\u2588","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 13"}},{"text":", "},{"text":"\u2588","color":"gold","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 14"}},{"text":", "},{"text":"\u2588","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 15"}},{"text":", "},{"text":"\u2588","color":"gray","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 16"}},{"text":", "},{"text":"\u2588","color":"white","clickEvent":{"action":"run_command","value":"/trigger playerSettings set 17"}},{"text":"\n"},{"text":"----------------------------------------","color":"green"},{"text":"\n "}]
 
 ## set globalSettings
 execute if entity @a[scores={globalSettings=2}] run function gilde:names/always
 execute if entity @a[scores={globalSettings=3}] run function gilde:names/never
+execute as @a[scores={globalSettings=4}] run scoreboard players set @s activeTriggers 0
+execute as @a[scores={globalSettings=5}] run scoreboard players set @s activeTriggers 1
+execute as @a[scores={globalSettings=6}] run scoreboard players set @s activeTriggers 2
+
 
 ## set playerSettings
 team join black @a[scores={playerSettings=2}]
