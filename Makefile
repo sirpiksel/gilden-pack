@@ -6,7 +6,6 @@ include config.mk
 
 all: pack deploy clean
 	cp -n config.def.mk config.mk
-	#include config.mk
 
 pack:
 	mkdir $(NAME)
