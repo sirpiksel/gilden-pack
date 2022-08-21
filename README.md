@@ -13,7 +13,7 @@ Functionality
 -------------
 * actionbar
 > controls actionbar text and displays useful information like coordinates or entity information (not implemented yet)
-* difficulty:
+* difficulty
 > add custom difficulty modes (not implemented yet)
 * grid
 > clu / rinzler (done)
@@ -29,10 +29,10 @@ Building
 
 to build, simply run make.
 
-        $ make
+    $ make
 
 to create a zip file run:
-
+        
     $ make zip
 
 To change the deploy path or the pack-name, simply edit config.mk. For a default config file, see config.def.mk
