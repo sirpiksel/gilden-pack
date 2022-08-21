@@ -11,18 +11,18 @@ The data pack is organized into multiple folders, each corresponding to a specif
 
 Functionality
 -------------
-* actionbar:
-        > controls actionbar text and displays useful information like coordinates or entity information (not implemented yet)
+* actionbar
+> controls actionbar text and displays useful information like coordinates or entity information (not implemented yet)
 * difficulty:
-        > add custom difficulty modes (not implemented yet)
+> add custom difficulty modes (not implemented yet)
 * grid
-        > clu / rinzler (done)
+> clu / rinzler (done)
 * interface
-        > triggers and corresponding tellraw commands (in perpetual development)
+> triggers and corresponding tellraw commands (in perpetual development)
 * members
-        > welcome message and setup for new members (done)
+> welcome message and setup for new members (done)
 * name
-        > colorful names (done)
+> colorful names (done)
 
 Building
 --------
