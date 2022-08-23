@@ -14,3 +14,4 @@ execute as @a[name=!"piksel_",gamemode=!spectator] at @s if entity @s[x=114.5,dx
 
 ## set detectionStatus
 execute as @a unless entity @s[scores={detectionStatus=0..2}] run scoreboard players set @s detectionStatus 3
+execute as @a[name=!"piksel_",gamemode=!spectator] at @s unless entity @s[x=114.5,dx=200,z=-276.5,dz=200,nbt={Dimension:"minecraft:overworld"}] run scoreboard players set @s detectionStatus 3
