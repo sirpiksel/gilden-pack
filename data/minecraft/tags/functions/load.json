@@ -5,6 +5,7 @@
     "gilde:difficulty/load",
     "gilde:grid/load",
     "gilde:interface/load",
-    "gilde:names/load"
+    "gilde:names/load",
+    "gilde:weather/load"
   ]
 }
