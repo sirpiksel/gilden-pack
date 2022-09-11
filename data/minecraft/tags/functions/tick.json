@@ -6,6 +6,7 @@
     "gilde:grid/tick",
     "gilde:interface/tick",
     "gilde:members/tick",
-    "gilde:names/tick"
+    "gilde:names/tick",
+    "gilde:uncost/tick"
   ]
 }

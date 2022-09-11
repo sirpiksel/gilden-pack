@@ -6,6 +6,7 @@
     "gilde:grid/load",
     "gilde:interface/load",
     "gilde:names/load",
+    "gilde:uncost/load",
     "gilde:weather/load"
   ]
 }
