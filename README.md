@@ -11,18 +11,27 @@ The data pack is organized into multiple folders, each corresponding to a specif
 
 Functionality
 -------------
-* actionbar
-> controls actionbar text and displays useful information like coordinates or entity information (not implemented yet)
-* difficulty
-> add custom difficulty modes (not implemented yet)
-* grid
-> clu / rinzler (done)
-* interface
-> triggers and corresponding tellraw commands (in perpetual development)
-* members
-> welcome message and setup for new members (done)
-* name
-> colorful names (done)
+### actionbar
+* controls actionbar text and displays useful information like coordinates or entity information
+* allows multiple modes like: auto, auto+, coordinates, horse-data
+* __not implemented yet__
+### difficulty
+* add custom difficulty modes
+* difficulty can be choosen on a by playerr basis
+* __not implemented yet__
+### grid
+* clu
+* rinzler
+* __done__
+### interface
+* triggers and corresponding tellraw commands
+* __in perpetual development__
+### members
+* welcome message and setup for new members
+* __done__
+### name
+* colorful names
+* __done__
 
 Building
 --------
