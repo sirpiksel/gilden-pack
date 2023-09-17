@@ -1,3 +1,3 @@
 # gilden-datapack weather load function #
 
-schedule function gilde:weather/thuner 60s replace
+schedule function gilde:weather/setthunder 60s replace
