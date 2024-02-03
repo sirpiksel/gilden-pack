@@ -3,8 +3,7 @@ Gilden-Pack
 
 private Datapack for a private Guild Minecraft Server.
 
-Note:
-
+> [!NOTE]
 > While this datapack is open-source, it isn't meant as a drop-in solution. It contains Information specific to our playerbase and our map. Therefore, this datapack is provided as is.
 
 The data pack is organized into multiple folders, each corresponding to a specific feature or functionality.
